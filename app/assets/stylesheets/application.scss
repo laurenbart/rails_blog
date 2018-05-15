@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootswatch/journal/variables";
+@import "bootstrap";
+@import "bootswatch/journal/bootswatch";
+
+ 
+ .alert {
+  color: red;
+  font-style: italic;
+}
+ 
+table {
+   background-color: #dbaff7;
+}
+
+//Bootstrap body paddings for a fixed navbar
+body {
+   padding-top: 60px;
+}
